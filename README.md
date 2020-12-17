@@ -21,4 +21,5 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 - MDN [Tables](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
 - [Form](https://stackoverflow.com/questions/19454310/stop-form-refreshing-page-on-submit)
 - [preventDefault](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
-- [color input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color) 
+- [color input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color)
+- CSS help [https://www.hongkiat.com/blog/20-useful-css-tips-for-beginners/](https://www.hongkiat.com/blog/20-useful-css-tips-for-beginners/)
