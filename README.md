@@ -23,3 +23,7 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 - [preventDefault](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 - [color input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color)
 - CSS help [https://www.hongkiat.com/blog/20-useful-css-tips-for-beginners/](https://www.hongkiat.com/blog/20-useful-css-tips-for-beginners/)
+
+## Note for archive:
+
+All files here are from the [nanodegree_intro_to_programming](https://github.com/ambardas/nanodegree_intro_to_programming/tree/main/js_projects/pixel_art_maker_project_folder). Hence this forked project will be archived.
