@@ -3,7 +3,13 @@
 
 var sizeM = 1;
 var sizeN = 1;
-var brushColor = '#000000';
+var brushColor = document.querySelector("#colorPicker").value;
+
+function checkRemoveOldGrid(){
+    const existingGrid = document.querySelector('tbody');
+    // If the grid does not exist then do nothing, else empty the grid
+    existingGrid === null ? console.log("No old grid to remove") : existingGrid.remove();
+}
 
 const formDataToGrid = function (gridFormData) {
 
@@ -29,9 +35,6 @@ formSizePicker.addEventListener('submit', formDataToGrid);
 formSizePicker addEventListener 'change'
 - if formSizePicker values change and there is a tbody, then 
   - ask user if they want to save current pixel art
-  - remove existing table
-  - create a new empty table of new size
-- if formSizePicker values change and there is no tbody, then create a new empty table
 --*/
 
 const formColorPicker = document.querySelector('#colorPicker');
@@ -69,6 +72,8 @@ function makeGrid() {
     }
 
     const tableArea = document.querySelector('#pixelCanvas');
+    checkRemoveOldGrid();
+    
     tableArea.appendChild(newTableBody);
 
 }
